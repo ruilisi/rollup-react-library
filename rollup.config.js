@@ -30,8 +30,18 @@ export default {
     url(),
     svgr(),
     babel({
+      presets: [
+        'react-app'
+      ],
+      plugins: [
+        '@babel/plugin-proposal-object-rest-spread',
+        '@babel/plugin-proposal-optional-chaining',
+        '@babel/plugin-syntax-dynamic-import',
+        '@babel/plugin-proposal-class-properties',
+        'transform-react-remove-prop-types'
+      ],
       exclude: 'node_modules/**',
-      plugins: [ 'external-helpers' ]
+      runtimeHelpers: true
     }),
     resolve(),
     commonjs()
