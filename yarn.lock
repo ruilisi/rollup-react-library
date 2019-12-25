@@ -1761,11 +1761,6 @@ acorn@^7.1.0:
   resolved "https://registry.npm.taobao.org/acorn/download/acorn-7.1.0.tgz#949d36f2c292535da602283586c2477c57eb2d6c"
   integrity sha1-lJ028sKSU12mAig1hsJHfFfrLWw=
 
-actioncable-jwt@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.npm.taobao.org/actioncable-jwt/download/actioncable-jwt-1.1.0.tgz#fbcf7d27b3ee5fa3090474b81e21ed843a1b152a"
-  integrity sha1-+899J7PuX6MJBHS4HiHthDobFSo=
-
 address@1.1.2, address@^1.0.1:
   version "1.1.2"
   resolved "https://registry.npm.taobao.org/address/download/address-1.1.2.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Faddress%2Fdownload%2Faddress-1.1.2.tgz#bf1116c9c758c51b7a933d296b72c221ed9428b6"
@@ -9317,6 +9312,17 @@ rollup-plugin-postcss@^2.0.3:
     rollup-pluginutils "^2.0.1"
     style-inject "^0.3.0"
 
+rollup-plugin-terser@^5.1.3:
+  version "5.1.3"
+  resolved "https://registry.npm.taobao.org/rollup-plugin-terser/download/rollup-plugin-terser-5.1.3.tgz#5f4c4603b12b4f8d093f4b6f31c9aa5eba98a223"
+  integrity sha1-X0xGA7ErT40JP0tvMcmqXrqYoiM=
+  dependencies:
+    "@babel/code-frame" "^7.0.0"
+    jest-worker "^24.6.0"
+    rollup-pluginutils "^2.8.1"
+    serialize-javascript "^2.1.2"
+    terser "^4.1.0"
+
 rollup-plugin-url@^3.0.1:
   version "3.0.1"
   resolved "https://registry.npm.taobao.org/rollup-plugin-url/download/rollup-plugin-url-3.0.1.tgz#6362fd31d7ce6d078dc5adffbd844f080de61bd7"
@@ -10197,7 +10203,7 @@ terser-webpack-plugin@^1.4.1:
     webpack-sources "^1.4.0"
     worker-farm "^1.7.0"
 
-terser@^4.1.2, terser@^4.3.9:
+terser@^4.1.0, terser@^4.1.2, terser@^4.3.9:
   version "4.4.3"
   resolved "https://registry.npm.taobao.org/terser/download/terser-4.4.3.tgz#401abc52b88869cf904412503b1eb7da093ae2f0"
   integrity sha1-QBq8UriIac+QRBJQOx632gk64vA=

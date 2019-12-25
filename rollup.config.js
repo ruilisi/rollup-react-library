@@ -3,6 +3,7 @@ import commonjs from 'rollup-plugin-commonjs'
 import external from 'rollup-plugin-peer-deps-external'
 import postcss from 'rollup-plugin-postcss'
 import resolve from 'rollup-plugin-node-resolve'
+import { terser } from 'rollup-plugin-terser'
 import url from 'rollup-plugin-url'
 import svgr from '@svgr/rollup'
 
@@ -23,12 +24,17 @@ export default {
     }
   ],
   plugins: [
-    external(),
     postcss({
-      modules: true
+      plugins: [],
+      minimize: true,
+      sourceMap: 'inline'
+    }),
+    external({
+      includeDependencies: true
     }),
     url(),
     svgr(),
+    resolve(),
     babel({
       presets: [
         'react-app'
@@ -43,7 +49,7 @@ export default {
       exclude: 'node_modules/**',
       runtimeHelpers: true
     }),
-    resolve(),
-    commonjs()
+    commonjs(),
+    terser()
   ]
 }
