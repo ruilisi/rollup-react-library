@@ -1,6 +1,6 @@
 {
-  "short_name": "actioncable-jwt-react-context",
-  "name": "actioncable-jwt-react-context",
+  "short_name": "rollup-react-library",
+  "name": "rollup-react-library",
   "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#000000",

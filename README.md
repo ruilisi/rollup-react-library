@@ -1,13 +1,13 @@
-# actioncable-jwt-react-context
+# rollup-react-library
 
-> React Context for actioncable-jwt which makes your usage of actioncable easy
+> Another react library creator which follows latest js libraries
 
-[![NPM](https://img.shields.io/npm/v/actioncable-jwt-react-context.svg)](https://www.npmjs.com/package/actioncable-jwt-react-context) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/rollup-react-library.svg)](https://www.npmjs.com/package/rollup-react-library) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save actioncable-jwt-react-context
+npm install --save rollup-react-library
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install --save actioncable-jwt-react-context
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'actioncable-jwt-react-context'
+import MyComponent from 'rollup-react-library'
 
 class Example extends Component {
   render () {

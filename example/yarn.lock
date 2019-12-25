@@ -56,7 +56,7 @@ acorn@^5.0.0, acorn@^5.5.0:
   resolved "https://registry.npm.taobao.org/acorn/download/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
   integrity sha1-Z6ojG/iBKXS4UjWpZ3Hra9B+onk=
 
-"actioncable-jwt-react-context@link:..":
+"rollup-react-library@link:..":
   version "0.0.0"
   uid ""
 

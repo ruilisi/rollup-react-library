@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import ExampleComponent from 'actioncable-jwt-react-context'
+import ExampleComponent from 'rollup-react-library'
 
 export default class App extends Component {
   render () {

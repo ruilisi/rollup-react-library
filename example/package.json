@@ -1,6 +1,6 @@
 {
-  "name": "actioncable-jwt-react-context-example",
-  "homepage": "https://ruilisi.github.io/actioncable-jwt-react-context",
+  "name": "rollup-react-library-example",
+  "homepage": "https://ruilisi.github.io/rollup-react-library",
   "version": "0.0.0",
   "license": "MIT",
   "private": true,
@@ -9,7 +9,7 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "^1.1.4",
-    "actioncable-jwt-react-context": "link:.."
+    "rollup-react-library": "link:.."
   },
   "scripts": {
     "start": "react-scripts start",

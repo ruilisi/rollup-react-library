@@ -1,10 +1,10 @@
 {
-  "name": "actioncable-jwt-react-context",
+  "name": "rollup-react-library",
   "version": "1.0.0",
-  "description": "React Context for actioncable-jwt which makes your usage of actioncable easy",
+  "description": "Another react library creator which follows latest js libraries",
   "author": "ruilisi",
   "license": "MIT",
-  "repository": "ruilisi/actioncable-jwt-react-context",
+  "repository": "ruilisi/rollup-react-library",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
